@@ -1080,7 +1080,7 @@ namespace FullRareSetManager
 
         private bool DrawBorder(long entityAddress, ItemDisplayData data)
         {
-            if (GameController.Game.IngameState.IngameUi.Atlas.IsVisible)
+            if (GameController.Game.IngameState.IngameUi.AtlasPanel.IsVisible)
                 return false;
 
             if (GameController.Game.IngameState.IngameUi.BetrayalWindow.IsVisible)
